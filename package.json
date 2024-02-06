@@ -1,0 +1,25 @@
+{
+  "name": "@contextprotocol/types",
+  "version": "0.8.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean-build": "rm -rf ./dist",
+    "compile": "tsc -p .",
+    "build": "pnpm run clean-build && pnpm run compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
