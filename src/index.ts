@@ -43,7 +43,10 @@ export interface StorageVersion {
   format?: string;
   signature?: any;
 }
-  
+ 
+// Storage Types.
+export type StorageType = 'arweave' | 'memory' | 'file' | 'bnbgreenfield' | 'swarm' | 'ipfs'  | 'ten';
+
 // Storage Interface.Defines the contract for storage implementations.
 export interface StorageObject {
 

@@ -35,6 +35,7 @@ export interface StorageVersion {
     format?: string;
     signature?: any;
 }
+export type StorageType = 'arweave' | 'memory' | 'file' | 'bnbgreenfield' | 'swarm' | 'ipfs' | 'ten';
 export interface StorageObject {
     /**
      * Writes data to the storage.
