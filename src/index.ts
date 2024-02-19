@@ -43,8 +43,8 @@ export interface StorageVersion {
   format?: string;
   signature?: any;
 }
-  
-// Storage Interface.Defines the contract for storage implementations.
+ 
+/// Storage Interface.Defines the contract for storage implementations.
 export interface StorageObject {
 
   /**
