@@ -17,7 +17,7 @@ export interface Data {
 export interface Schema {
     [key: string]: string;
 }
-export type ActionType = 'write' | 'update' | 'push' | 'delete' | 'install';
+export type ActionType = 'write' | 'update' | 'push' | 'delete' | 'install' | 'uninstall';
 export interface Action {
     action: ActionType;
     path?: string;

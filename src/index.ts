@@ -20,7 +20,7 @@ export interface Schema {
 }
   
 // Actions Interface
-export type ActionType = 'write' | 'update' | 'push' | 'delete' | 'install';
+export type ActionType = 'write' | 'update' | 'push' | 'delete' | 'install' | 'uninstall';
 export interface Action {
   action: ActionType;
   path?: string;
