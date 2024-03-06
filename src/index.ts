@@ -1,12 +1,4 @@
-// Importing ABIs for the registry and token contracts
-import * as registryABI from './ContextRegistry.json';
-import * as tokenABI from './ContextToken.json';
-
-// Exporting the imported ABIs
-export { registryABI, tokenABI };
-
 // Defining enums for Connection, Storage, and Version
-export enum Connection { LOCALHOST = 1, POLYGON = 2, MUMBAI = 3 }
 export enum Version { MAJOR = 1, MINOR = 2 , PATCH = 3 }
 
 // Data Interface
