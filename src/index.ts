@@ -34,7 +34,7 @@ export interface StorageVersion {
   tags?: Tag[];
   format?: string;
   signature?: any;
-  nonce: string;
+  nonce?: string;
 }
  
 /// Storage Interface.Defines the contract for storage implementations.

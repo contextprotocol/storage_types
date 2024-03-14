@@ -1,11 +1,3 @@
-import * as registryABI from './ContextRegistry.json';
-import * as tokenABI from './ContextToken.json';
-export { registryABI, tokenABI };
-export declare enum Connection {
-    LOCALHOST = 1,
-    POLYGON = 2,
-    MUMBAI = 3
-}
 export declare enum Version {
     MAJOR = 1,
     MINOR = 2,
@@ -34,7 +26,7 @@ export interface StorageVersion {
     tags?: Tag[];
     format?: string;
     signature?: any;
-    nonce: string;
+    nonce?: string;
 }
 export interface StorageObject {
     /**
