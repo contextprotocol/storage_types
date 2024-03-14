@@ -34,6 +34,7 @@ export interface StorageVersion {
     tags?: Tag[];
     format?: string;
     signature?: any;
+    nonce: string;
 }
 export interface StorageObject {
     /**
